@@ -1,5 +1,5 @@
 def main():
-	add_three(1,2,3)
+	p = add_three(1,2,3)
 	average_three(p)
 	
 def add_three(v1,v2,v3):
@@ -13,13 +13,16 @@ def add_three(v1,v2,v3):
 	
 	return p
 
-def average_three():
+def average_three(w1):
 	""" divide sum by three
+
+	:param w1: sum of numbers one to three
 	"""
 
-	q = p/3
+	q = w1/3
 	
 	print(q)
-if _name_ == "_main_":
+
+if __name__ == "__main__":
 	main()
 
